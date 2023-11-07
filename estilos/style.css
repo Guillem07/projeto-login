@@ -38,7 +38,7 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
+    width: 254px;
     height:500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.400);
@@ -58,4 +58,14 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+i.material-symbols-outlined{
+    font-variation-settings: 'FILL' 1, 'wght' 800, 'GRAD' 0, 'opsz' 48;
 }
